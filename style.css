@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+
+/* Selector universal */
+* {
+    margin: 0px;
+    padding: 0px;
+    font-size: 20px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+/* Encabezado */
+nav {
+    display: flex;
+    background-color: #FED41D;
+    padding: 20px;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav .nav_options {
+    font-weight: bold;
+    margin-right: 20px;
+}
+
+nav .brand_image img {
+    width: 150px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav li {
+    padding-left: 20px;
+}
+
+nav li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    color: #F14E28;
+
+}
+
+/* Sección media */
+
+.main_section {
+    padding: 10%;
+    text-align: center;
+}
+
+.main_section h1 {
+    font-size:  40px;
+}
+
+.products {
+    background-color: #009DDC;
+    height: 100px;
+    background-size: cover;
+    background-position: center top;
+    padding: 20%;
+    display: flex;
+    margin: 0px;
+}
+
+.product {
+    padding: 10px;
+    margin-top: -220px;
+    padding-left: 90px;
+    text-align: center;
+}
+
+.product .content {
+    background-color: white;
+    padding: 10px;
+    box-shadow: 0 0 1px rgb(172, 167, 167);
+    border-radius: 20px;
+
+
+}
+
+.img_content {
+    text-align: center;
+
+}
+
+.main_button {
+    background-color: #F14E28;
+    width: 100%;
+    margin: 1px;
+    padding: 10px;
+    font-size: 14px;
+    color: white;
+    border: 0px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.main_button:hover {
+    background-color: #f56e50;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    background-color: #000000;
+    text-decoration: none;
+    padding: 10px;
+    color:white;
+    margin: 0px;
+
+}
+
+footer {
+    list-style: none;
+    display: flex;
+    padding-left: 10px;
+    padding-right: 10px;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+footer #options_f_1 {
+    margin-left: 30px;
+}
+
+footer #options_f_2 {
+    margin-left: -80px;
+}
+
+footer #options_f_3 {
+    margin-right: 30px;
+}
